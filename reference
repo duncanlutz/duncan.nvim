@@ -1,0 +1,6 @@
+
+
+1. s-<insert two characters> - search via 'leap'
+2. <leader>e - open / close nvim-tree
+3. <leader>a - add buffer to harpoon
+
