@@ -53,4 +53,12 @@ return require('packer').startup(function(use)
     use { 'embark-theme/vim', as = 'embark' }
     use 'tpope/vim-repeat'
     use 'ggandor/leap.nvim'
+    use 'tpope/vim-surround'
+    use {
+        'folke/trouble.nvim',
+        requires = {
+            "nvim-tree/nvim-web-devicons"
+        }
+    }
+    use 'linux-cultist/venv-selector.nvim'
 end)
